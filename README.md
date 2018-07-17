@@ -3,7 +3,7 @@ Look, up in the… ceiling!
 ### How about some drone-style footage, indoors, and without a drone? It might be easier than it sounds!
 
 
-Like millions of people around the world, I spent the last month watching as many World Cup matches as I could blast at my face. (Allez les Bleus!) But unlike most, I spent a large part of that time watching the often dizzying Cable Camera feeds. Now we all know that overhead shots and UAV-style video are big right now - try to find a decent real estate listing that doesn’t have a drone shot of the property. However, people tend to get a little squirrely when there’s a drone buzzing overhead indoors. So I wanted to see if I could make a fast and simple Cable Cam unit - the hacker’s version of what I had been watching  all month - using a few parts and a 3D printer.
+Like millions of people around the world, I spent the last month watching as many World Cup matches as I could blast at my face. ([Allez les Bleus!](https://www.huffingtonpost.fr/2018/07/15/champions-du-monde-les-images-des-champs-elysees-apres-la-victoire-des-bleus-en-coupe-du-monde_a_23482490/)) But unlike most, I spent a large part of that time watching the often dizzying Cable Camera feeds. Now we all know that overhead shots and UAV-style video are big right now - try to find a decent real estate listing that doesn’t have a drone shot of the property. However, people tend to get a little squirrely when there’s a drone buzzing overhead indoors. So I wanted to see if I could make a fast and simple Cable Cam unit - the hacker’s version of what I had been watching  all month - using a few parts and a 3D printer.
 
 ![Eye in teh sky](https://user-images.githubusercontent.com/3188387/42844451-34f68bf0-89d0-11e8-93c5-2ab31bc01db9.jpg)
 
@@ -23,7 +23,7 @@ A quick search gave me an idea of what a CableCam might look like. From there, I
 
 ![The results](https://user-images.githubusercontent.com/3188387/42844458-3aacb812-89d0-11e8-9c17-617a0aa78a6e.jpg)
 
-As my focus for this build was more on the 3D printed elements than the electronics, it admittedly is not the most elegant solution. But the aim was speed and simplicity, which I think I achieved that. [An ESP8266 Thing](https://www.sparkfun.com/products/13231) and a [TB6612FNG Dual Motor Driver](https://www.sparkfun.com/products/14451) run the whole operation, along with a pair or servo motors, and a micro gearmotor. I’m using the [2.2Ah Lithium Ion Battery Pack](https://www.sparkfun.com/products/14169) for its 5V output. And the Blynk app made control a breeze.
+As my focus for this build was more on the 3D printed elements than the electronics, it admittedly is not the most elegant solution. But the aim was speed and simplicity, which I think I achieved that. [A Sparkfun ESP8266 Thing](https://www.sparkfun.com/products/13231) and a [TB6612FNG Dual Motor Driver](https://www.sparkfun.com/products/14451) run the whole operation, along with a pair or servo motors, and a micro gearmotor. I’m using the [2.2Ah Lithium Ion Battery Pack](https://www.sparkfun.com/products/14169) for its 5V output. And the Blynk app made control a breeze.
 
 ### IF AT FIRST YOU DON’T SUCCEED
 
@@ -44,7 +44,7 @@ VIDEO or GIF HERE
 
 So as you can see in the video, the servo motion is a little jerky, and it causes a bit of swing on the cable when it moves. IN addition, the travel speed was much slower than I had hoped. BUt over an eighty foot span, quite a lot of pressure was placed on the motor. It would take some experimenting to find the sweet spot between torque and speed. But since this build was more about 3D printing the rig than creating something that FIFA or the NFL or even the local theatre is going to be clamoring for, I think it was a success.  The toughest part about 3D printing is the design phase. Lots of people get a 3D printer, and then just download existing files to print. And that certainly has its place. But the first time that you visualize something that doesn’t currently exist, and are able to design it on the computer, and a few hours later be holding it in your hand... Well that, friends, is a feeling that stays with you. Now go out there and start seeing everything around you as the collection of primitive shapes that it is!
 
-![My first 3D print](https://user-images.githubusercontent.com/3188387/42844432-221ff2b4-89d0-11e8-8546-33fca0120bf5.jpg | width=200)
+![My first 3D print](https://user-images.githubusercontent.com/3188387/42844432-221ff2b4-89d0-11e8-8546-33fca0120bf5.jpg|width=200)
 ##### Where it all began. My first idea-to-object 3D print.
 
 You can find a wishlist of all the parts [here](https://www.sparkfun.com/wish_lists/147123)
