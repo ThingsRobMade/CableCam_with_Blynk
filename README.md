@@ -47,5 +47,6 @@ So as you can see in the video, the servo motion is a little jerky, and it cause
 <img src="https://user-images.githubusercontent.com/3188387/42844432-221ff2b4-89d0-11e8-8546-33fca0120bf5.jpg" alt="My first 3D print" style="width:200px;"/>
 ##### Where it all began. My first idea-to-object 3D print.
 
-You can find a wishlist of all the parts [here](https://www.sparkfun.com/wish_lists/147123)
-Code and .stl files are in [this Github repository](https://github.com/RTR52nd/CableCam_with_Blynk)
+You can find a wishlist of all the parts [here](https://www.sparkfun.com/wish_lists/147123).
+
+Code and .stl files are in [this Github repository](https://github.com/RTR52nd/CableCam_with_Blynk).
