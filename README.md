@@ -44,7 +44,7 @@ VIDEO or GIF HERE
 
 So as you can see in the video, the servo motion is a little jerky, and it causes a bit of swing on the cable when it moves. IN addition, the travel speed was much slower than I had hoped. BUt over an eighty foot span, quite a lot of pressure was placed on the motor. It would take some experimenting to find the sweet spot between torque and speed. But since this build was more about 3D printing the rig than creating something that FIFA or the NFL or even the local theatre is going to be clamoring for, I think it was a success.  The toughest part about 3D printing is the design phase. Lots of people get a 3D printer, and then just download existing files to print. And that certainly has its place. But the first time that you visualize something that doesn’t currently exist, and are able to design it on the computer, and a few hours later be holding it in your hand... Well that, friends, is a feeling that stays with you. Now go out there and start seeing everything around you as the collection of primitive shapes that it is!
 
-![My first 3D print](https://user-images.githubusercontent.com/3188387/42844432-221ff2b4-89d0-11e8-8546-33fca0120bf5.jpg =250x)
+<img src="https://user-images.githubusercontent.com/3188387/42844432-221ff2b4-89d0-11e8-8546-33fca0120bf5.jpg" alt="My first 3D print" style="width:200px;"/>
 ##### Where it all began. My first idea-to-object 3D print.
 
 You can find a wishlist of all the parts [here](https://www.sparkfun.com/wish_lists/147123)
