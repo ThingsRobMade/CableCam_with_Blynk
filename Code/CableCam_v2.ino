@@ -9,7 +9,7 @@
  *    network name and password into Blynk.begin, line 46.
  *    
  *    This code is public domain, but if you find it useful, and we
- *    mee at the local someday, you buy me a beer (Beerware License).
+ *    meet at the local someday, you buy me a beer (Beerware License).
  */
 
 
@@ -51,20 +51,20 @@ void setup()
 
 BLYNK_WRITE(V1)  
 {
-  servo.write(param.asInt());  //Takes output from Virtual Pin 1, writes it to Pin 0
+  servo.write(param.asInt());  //Takes output from Virtual Pin 1, writes it to Pin 0 (pan)
 }
 
 
 BLYNK_WRITE(V6)  
 { 
-  servo1.write(param.asInt());  //Takes output from Virtual Pin 6, writes it to Pin 5
+  servo1.write(param.asInt());  //Takes output from Virtual Pin 6, writes it to Pin 5 (tilt)
 }  
 
 
 BLYNK_WRITE(V10)
 {
   travelSpeed = map((param.asInt()), 0, 100, -1024, 1024);  //Controls travel motor speed.
-                                                          //Range is reduced to make it easier to park at still
+                                                          //Range is reduced to make it easier to park (slider at 50)
                                                           //Mapped because Blynk wont allow negative values
   motor1.drive(travelSpeed);
 }
