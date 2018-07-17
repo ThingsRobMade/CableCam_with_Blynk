@@ -1,6 +1,6 @@
 Look, up in the… ceiling!
 ==========================
-###How about some drone footage, indoors, and without a drone? ###It might be easier than it sounds!
+###How about some drone-style footage, indoors, and without a ###drone? It might be easier than it sounds!
 
 
 Like millions of people around the world, I spent the last month watching as many World Cup matches as I could blast at my face. (Allez les Bleus!) But unlike most, I spent a large part of that time watching the often dizzying Cable Camera feeds. Now we all know that overhead shots and UAV-style video are big right now - try to find a decent real estate listing that doesn’t have a drone shot of the property. However, people tend to get a little squirrely when there’s a drone buzzing overhead indoors. So I wanted to see if I could make a fast and simple Cable Cam unit - the hacker’s version of what I had been watching  all month - using a few parts and a 3D printer.
@@ -16,11 +16,10 @@ SPLIT PHOTO - EARLY 3D WORK/CURRENT 3D WORK (SAFE CRACKER)
 
 Opening up Fusion 360, the user interface is fairly intuitive. Admittedly, it helps me a great deal to be as familiar with general 3D modelling as I am. Knowing the difference between a chamfer and a fillet, or a revolve and a sweep, allow me to move quicker, create faster, and get less frustrated trying to figure out how to get the program to do what I want to do. It’s one thing to know that you don’t want two faces to meet at a hard right angle, but rather, have a soft curve between them - but modelling will be much easier and quicker if you know that a fillet. That all comes with time, and there will be frustration along the way. But you can always undo steps, and try something else, and undo that, and try something else, until you get the desired result. In fact, Fusion 360 has a timeline of each step of your build along the bottom of the window. You can go back to certain steps, move through the steps, or even play them using the play button next to the timeline.
 
-
-
 A quick search gave me an idea of what a CableCam might look like. From there, I created some shapes, basing its size on components I planned on using, chief among them my cheap sports camera, and our [Pan/Tilt Bracket Kit](https://www.sparkfun.com/products/10335). Some of the known objects I planned to use already had existing models, like the [Right Angle Motor](https://www.sparkfun.com/products/13258), and the [Servo Motors](). [GrabCad[() is a great resource for existing models, and they are free. Fo higher end stuff, you can try sites like [Turbo Squid](https://www.turbosquid.com/), whose models range from free to “Well, if I sell my car…” The components that I created were the main body of the unit (in two halves, left and right), the drive pulley on the DC motor, and the two idler pulleys on either side of the unit. To make sure I was creating things in the right size, I also made models of the pan/tilt bracket and the [Lithium Ion Battery Pack - 2.2A](https://www.sparkfun.com/products/14169), as well as the Thing Board itself. I did all of this simply using calipers.
 
-
+![The 3D environment](https://user-images.githubusercontent.com/3188387/42799090-a3dcd100-8953-11e8-94b9-4295208d96c6.jpg)
+### The 3D environment in Fusion 360
 
 As my focus for this build was more on the 3D printed elements than the electronics, it admittedly is not the most elegant solution. But the aim was speed and simplicity, which I think I achieved. [An ESP8266 Thing](https://www.sparkfun.com/products/13231) and a [TB6612FNG Dual Motor Driver](https://www.sparkfun.com/products/14451) run the whole operation, along with a pair or servo motors, and a micro gearmotor. I’m using the [2.2Ah Lithium Ion Battery Pack](https://www.sparkfun.com/products/14169) for its 5V output. And the Blynk app made control a breeze.
 
@@ -30,6 +29,7 @@ My first attempt used a [Right Angle Hobby Motor](https://www.sparkfun.com/produ
 
 At first I thought I would have to alter and reprint the entire frame. However, looking at the housing for the new, smaller motor, it’s placement dictated that it would be simpler to just create a small part that attached to the back of the existing frame, onto which the motor housing could easily be mounted. I also placed the battery holder on the front to better balance the unit, and added holes so that it would also be possible to use the [Pi Cam in the smaller pan/tilt bracket](https://www.sparkfun.com/products/14329). This could allow for streaming video, but that’s a post for another day.
 
+![Blynk Screen Grabs](https://user-images.githubusercontent.com/3188387/42799096-a8a83ce2-8953-11e8-91c0-7bf88df9e251.jpg)
 
 #####The Blynk app, with settings for both the Rig Motor and the Pan/Tilt control
 
