@@ -1,6 +1,6 @@
 Look, up in the… ceiling!
 ==========================
-###How about some drone-style footage, indoors, and without a ###drone? It might be easier than it sounds!
+### How about some drone-style footage, indoors, and without a ### drone? It might be easier than it sounds!
 
 
 Like millions of people around the world, I spent the last month watching as many World Cup matches as I could blast at my face. (Allez les Bleus!) But unlike most, I spent a large part of that time watching the often dizzying Cable Camera feeds. Now we all know that overhead shots and UAV-style video are big right now - try to find a decent real estate listing that doesn’t have a drone shot of the property. However, people tend to get a little squirrely when there’s a drone buzzing overhead indoors. So I wanted to see if I could make a fast and simple Cable Cam unit - the hacker’s version of what I had been watching  all month - using a few parts and a 3D printer.
@@ -31,7 +31,7 @@ At first I thought I would have to alter and reprint the entire frame. However, 
 
 ![Blynk Screen Grabs](https://user-images.githubusercontent.com/3188387/42799096-a8a83ce2-8953-11e8-91c0-7bf88df9e251.jpg)
 
-#####The Blynk app, with settings for both the Rig Motor and the Pan/Tilt control
+##### The Blynk app, with settings for both the Rig Motor and the Pan/Tilt control
 
 The [Blynk app](https://www.blynk.cc/) is incredibly intuitive to use. Add a component, set what that component does, connect to your project, and Bob’s your Uncle. You’ll notice that I have the rig speed range set from 0 to 100. In the code uploaded to the Thing, we map this to a range of -255 to 255. The reason for this were twofold; the Blynk app won’t accept a negative number for this output range, but the motor driver uses positive integers to travel one direction, and negative integers to travel the other. And the reason I didn’t use a range of 0 to 510 is because I wanted the center range, where the motor sits idle, to be a bit easier to hit. I also make sure that the rig speed control slider is always at center on startup, so the CableCam doesn’t immediately take off.
 
@@ -40,4 +40,4 @@ VIDEO HERE
 So as you can see in the video, the servo motion is a little jerky, and it causes a bit of swing on the cable when it moves. But since this build was more about 3D printing the rig than creating something that FIFA or the NFL or even the local theatre is going to be clamoring for, I think it was a success.  The toughest part about 3D printing is the design phase. Lots of people get a 3D printer, and then just download existing files to print. And that certainly has its place. But the first time that you visualize something that doesn’t currently exist, and are able to design it on the computer, and a few hours later be holding it in your hand… Well that, friends, is a feeling that stays with you. Now go out there and start seeing everything around you as the collection of primitive shapes that it is!
 
 IMAGE OF MY FIRST 3D PRINTED PIECE
-#####Where it all began
+##### Where it all began

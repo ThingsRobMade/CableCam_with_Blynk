@@ -63,7 +63,7 @@ BLYNK_WRITE(V6)
 
 BLYNK_WRITE(V10)
 {
-  travelSpeed = map((param.asInt()), 0, 100, -255, 255);  //Controls travel motor speed.
+  travelSpeed = map((param.asInt()), 0, 100, -1024, 1024);  //Controls travel motor speed.
                                                           //Range is reduced to make it easier to park at still
                                                           //Mapped because Blynk wont allow negative values
   motor1.drive(travelSpeed);
